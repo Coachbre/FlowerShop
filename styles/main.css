@@ -2,18 +2,90 @@
 
 /*Typography
 --------------------------------------------------------------*/
-body,
-button,
-input,
-select,
-textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+body {
+	background-color: darkcyan;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: lightgoldenrodyellow
+}
+
+header h1 {
+	line-height: 1em;
+	color: darkcyan;
+	text-align: left;
+	padding: 0 2em;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav li {
+	display: inline;
+	margin: 0 1em;
+}
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: lightsalmon;
+}
+
+nav a:active {
+	color: lightgreen;
+}
+
+.flowerSection {
+	margin: 1em 0;
+	/* display: flex; */
+}
+
+.flowerList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.flower-card {
+	background-color: lightcyan;
+	margin: .5em;
+	max-width: 200px;
+	padding: 10px;
+}
+
+.flower-card ul {
+	list-style-type: none;
+	padding: .5em;
+	margin: .2em;
+	font-size: .8em;
+}
+
+.flower-image {
+	width: 100%;
+	height: 150px;
+}
+
+.section-main {
+	margin: 1em;
+}
+
+footer {
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-align: center;
 }
